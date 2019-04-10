@@ -3,12 +3,12 @@
 std::map<std::string, std::vector<std::string>> listGroups;
 std::map<unsigned int, std::string> listPaths;
 
-namespace command{
+namespace command {
 	const std::string path = "path";
 	const std::string mod = "mod";
 	const std::string help = "help";
 	const std::string clear = "clear";
-};
+}
 
 
 std::string option(std::string string) {
